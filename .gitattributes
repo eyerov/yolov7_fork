@@ -1,5 +1,4 @@
-cfg/training/custom_weight.pt filter=lfs diff=lfs merge=lfs -text
-cfg/deploy/custom_weight_reparameterized.pt filter=lfs diff=lfs merge=lfs -text
 cfg/deploy/custom_weight_reparameterized.onnx filter=lfs diff=lfs merge=lfs -text
+cfg/deploy/custom_weight_reparameterized.pt filter=lfs diff=lfs merge=lfs -text
 cfg/deploy/custom_weight_reparameterized.torchscript filter=lfs diff=lfs merge=lfs -text
 cfg/training/ filter=lfs diff=lfs merge=lfs -text
